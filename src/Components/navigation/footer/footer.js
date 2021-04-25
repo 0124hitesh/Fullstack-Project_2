@@ -35,7 +35,7 @@ const footer = () => {
                         <p className="footer-text">Contact: 9936657710<br />Order: 9670300800, 9670400900, 9670800100 <br />
                             &copy; COPYRIGHT 2018 reserved by 2 Brother Pizza and Burger<br /><br/> 
                             Made with <img src={heart} alt="Heart" style={{ height: "22px", padding: "0 3px", float: "none" }} /> from <a style={{ display: "inline", float: "none" }} 
-                            href="https://www.wordpress.com">Hitesh Sharma, Jai Sharma, Shubhang Verma and Pranshul Agrawal</a></p>    
+                            href="https://github.com/0124hitesh/Fullstack-Project_2">Hitesh Sharma, Jai Sharma, Shubhang Verma and Pranshul Agrawal</a></p>    
                     </Col>
                 </Row>
             </Container>
