@@ -15,19 +15,19 @@ const flip_card = (props) => {
                         
                         <h3>Brought at your doorsteps by 2 Brother</h3>
                         <h4>Click To take a look</h4>
-                        </div>
                     </div>
-                     </div>
-                    <div className="flip-card-back">
+                    </div>
+                </div>
+                <div className="flip-card-back">
                     {props.back}
                         <h1 style={{fontWeight:"300"}}>Whats Top on the board</h1>
                         <ul>
                             {Object.keys(props.lis).map(each=><li key={each}>{each}</li>)}
                         </ul>
                         <Link to="/home" >Happy Ordering</Link>            
-                    </div>
                 </div>
             </div>
-            );
+        </div>
+    );
 }
 export default flip_card;
