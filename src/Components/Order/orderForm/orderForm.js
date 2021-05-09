@@ -51,7 +51,7 @@ class  orderForm extends Component{
                             </legend>
                         </Col>
                         <Col xs="8" xl="8">
-                        <input type="text" value={this.state.name} onChange={this.nameHandler} id="CustomerName"/>
+                        <input type="text" value={this.state.name} onChange={this.nameHandler} id="CustomerName" placeholder="Enter your name" required={this.nameHandler.required}/>
                         </Col>
                     </Row>
                     <Row>
@@ -61,7 +61,7 @@ class  orderForm extends Component{
                             </legend>
                         </Col>
                         <Col xs="8" xl="8">
-                        <input type="text" value={this.state.houseNumber} onChange={this.houseHandler} id="HouseNumber"/>
+                        <input type="text" value={this.state.houseNumber} onChange={this.houseHandler} id="HouseNumber" placeholder="Enter your address"/>
                         </Col>
                     </Row>
                     <Row>
@@ -71,7 +71,7 @@ class  orderForm extends Component{
                             </legend>
                         </Col>
                         <Col xs="8" xl="8">
-                        <input type="text" value={this.state.locality} onChange={this.localityHandler} id="Locality"/>
+                        <input type="text" value={this.state.locality} onChange={this.localityHandler} id="Locality" placeholder="Enter your locality"/>
                         </Col>
                     </Row>
                     <Row>
@@ -81,7 +81,7 @@ class  orderForm extends Component{
                             </legend>
                         </Col>
                         <Col xs="8" xl="8">
-                        <input type="text" value={this.state.landmark} onChange={this.landHandler} id="LandMark"/>
+                        <input type="text" value={this.state.landmark} onChange={this.landHandler} id="LandMark" placeholder="Enter your landmark"/>
                         </Col>
                     </Row>
                     <Row>
@@ -91,7 +91,7 @@ class  orderForm extends Component{
                             </legend>
                         </Col>
                         <Col xs="8" xl="8">
-                        <input type="text" value={this.state.pincode} onChange={this.pincodeHandler} id="PinCode"/>
+                        <input type="text" value={this.state.pincode} onChange={this.pincodeHandler} id="PinCode" placeholder="Enter your pincode"/>
                         </Col>
                     </Row>
                     <Row>
@@ -101,7 +101,7 @@ class  orderForm extends Component{
                             </legend>
                         </Col>
                         <Col xs="8" xl="8">
-                        <input type="text" value={this.state.phone} onChange={this.phoneHandler} id="Number"/>
+                        <input type="text" value={this.state.phone} onChange={this.phoneHandler} id="Number" placeholder="Enter your phone number"/>
                         </Col>
                     </Row>
                 </Container>
