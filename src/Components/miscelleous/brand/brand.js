@@ -11,8 +11,8 @@ const brand=(props)=>{
     all_class.push(vclass);
     return(
         <div className={all_class.join(" ")}>
-            <p className="brandnum">2</p>
-            <p className="name">BROTHER</p>
+            <p className="brandnum">Red Chillies</p><br></br>
+            <p className="name"></p>
             <div className="image-container">
             <img src={logo} alt="Compoany Logo"/>
             </div>
